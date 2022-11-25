@@ -2,9 +2,9 @@ package com.nopCommerce.pageObjects;
 
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
+//import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+//import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 
@@ -76,7 +76,7 @@ public class AddcustomerPage {
 	}
 	
 	
-	public void setCustomerRoles(String role) 
+	/*public void setCustomerRoles(String role) 
 		{
 			ldriver.findElement(By.xpath("//*[@id=\"SelectedCustomerRoleIds_taglist\"]/li/span[2]")).click();
 		
@@ -101,7 +101,7 @@ public class AddcustomerPage {
 			JavascriptExecutor js = (JavascriptExecutor)ldriver;
 			js.executeScript("arguments[0].click();", listitem);
 			
-	}
+	}*/
 
 	public void setManagerOfVendor(String value)
 	{

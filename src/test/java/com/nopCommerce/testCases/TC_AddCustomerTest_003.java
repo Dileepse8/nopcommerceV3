@@ -44,8 +44,8 @@ public class TC_AddCustomerTest_003 extends BaseClass
 		//The customer cannot be in both 'Guests' and 'Registered' customer roles
 		//Add the customer to 'Guests' or 'Registered' customer role
 		//addcust.setCustomerRoles("Guest"); 
-		addcust.setCustomerRoles("Administrators");
-		addcust.setCustomerRoles("Registered");
+		//addcust.setCustomerRoles("Administrators");
+		//addcust.setCustomerRoles("Registered");
 		//Administrators Registered
 		
 		
